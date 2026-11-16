@@ -9,7 +9,7 @@ export type LinkItem = {
 
 export const profile = {
   name: "김재홍",
-  bio: "SAP FI 컨설턴트",
+  bio: "AI 꿈나무",
   // 진짜 사진을 public 폴더에 넣고 "/파일이름.jpg"로 바꾸세요.
   imageUrl: "/profile-placeholder.svg",
 };
