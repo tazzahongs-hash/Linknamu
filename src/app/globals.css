@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 body {
-  background: #f5f5f5;
-  color: #171717;
-  font-family: "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  min-height: 100dvh;
+  /* 크림색 → 연한 살구색 그라데이션 (스크롤해도 배경이 고정) */
+  background: linear-gradient(180deg, #fffaf1 0%, #fff1e4 50%, #ffdcc8 100%) fixed;
+  color: #3a2e28;
+  font-family:
+    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Malgun Gothic", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }

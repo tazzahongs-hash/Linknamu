@@ -19,7 +19,8 @@ export default function LinkCard({ link }: { link: LinkItem }) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={recordClick}
-      className="block w-full rounded-xl border border-neutral-400 bg-white px-5 py-4 text-center font-medium transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0"
+      // 글래스 모피즘: 반투명 흰 판 + 뒤 배경 흐림 + 윗변 빛 반사. 호버는 살짝 밝아지는 정도만.
+      className="block w-full rounded-3xl border border-white/60 bg-white/35 px-6 py-[18px] text-center text-[15px] font-semibold tracking-tight text-stone-800 shadow-[inset_0_1px_0_rgba(255,255,255,0.8),0_8px_24px_-12px_rgba(190,110,70,0.35)] backdrop-blur-xl transition-colors duration-300 hover:bg-white/55 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-300 active:bg-white/65"
     >
       {link.title}
     </a>

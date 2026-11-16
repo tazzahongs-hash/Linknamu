@@ -9,13 +9,13 @@ export type LinkItem = {
 
 export const profile = {
   name: "김재홍",
-  bio: "AI 꿈나무",
+  bio: "AI 꿈나무 | 요즘 AI 개발에 관심이 많아요",
   // 진짜 사진을 public 폴더에 넣고 "/파일이름.jpg"로 바꾸세요.
-  imageUrl: "/profile-placeholder.svg",
+  imageUrl: "/profile.jpg",
 };
 
 export const links: LinkItem[] = [
-  { id: "github", title: "Github", url: "https://github.com/" },
-  { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/" },
-  { id: "blog", title: "Blog", url: "https://example.com/" },
+  { id: "github", title: "🐱 Github", url: "https://github.com/" },
+  { id: "linkedin", title: "🤝 LinkedIn", url: "https://www.linkedin.com/" },
+  { id: "blog", title: "🌱 Blog", url: "https://blog.naver.com/jaehong77" },
 ];
